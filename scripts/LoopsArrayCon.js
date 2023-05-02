@@ -1,10 +1,11 @@
 function loopsArray( array , number){
-
-    for (let i = number; i >= array.length; i++){
+    let array2 = []
+    for (let i = number; i < array.length; i++){
+        array2.push(array[i]);
         
-
-
     }
+
+return array2.toString();
 
 }
 
