@@ -1,8 +1,6 @@
 function array( array ) {
     let sum = 0
-    for (let number of array){
-        sum +=number
-    }
+    sum = array[0] + array[ ( array.length - 1) ];
 return sum;
 
 }
